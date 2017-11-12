@@ -6,11 +6,11 @@ import spotipy
 import spotipy.util as util
 from tweepy import Stream
 
-#token = util.prompt_for_user_token(username="leeu3581", client_id='2e7dc5a56ef645daaa5920cb2aec074f',client_secret='bf874328eb96434da598b5716c78dcd6',redirect_uri='http://127.0.0.1:8080/callback/q')
+#token = util.prompt_for_user_token(username="leeu3581", client_id='XXXXXXXXXXXX',client_secret='XXXXXXXXXx',redirect_uri='http://127.0.0.1:8080/callback/q')
 
 
-auth = tweepy.OAuthHandler('SfBiJ0tRqCVA9BygMxD2QSWpt','J39KhnJ4MYD2jTfYtjlCx1Mi8Zi1Evhq1ovNKzl85EY6uPCWIQ')
-auth.set_access_token('355494628-3aJoDVP8Ml8QYDwnGy91yhS0SwKZgwQ6MBpmJUhx','rgOW22QlYZNaUEABAPsGU2DUm2ZxqvIhBLhyunoYIu7Nk')
+auth = tweepy.OAuthHandler('XXXXXXXXXXXXXXX','XXXXXXXXXXXXXXX')
+auth.set_access_token('XXXXXXXXXXX','XXXXXXXXXXXXXXXX')
 
 twitter_api = tweepy.API(auth)
 
@@ -34,8 +34,7 @@ for result in results:
 
 
 
-scope = 'playlist-modify-public'
-token = util.prompt_for_user_token(username, scope, client_id='4eafe59b66604d8c975e3321d1fb66ff',client_secret='0904ebdfe829422e911aaa0af0245b14',redirect_uri='http://localhost:8888/callback')
+scope = 'playlist-modify-public'XXXXXXXXXX',client_secret='XXXXXXXXXXX',redirect_uri='http://localhost:8888/callback')
 
 if token:
     sp = spotipy.Spotify(auth=token)
